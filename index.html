@@ -8,14 +8,7 @@
     <title>Tutorial</title>
   </head>
   <body>
-    <div id="root">
-      <div id="large" class="center">Congratulations</div>
-      <section>
-        You have unlocked the tutorial<br />
-        Watch the video to prank your friends
-      </section>
-      <a href="https://www.youtube.com/embed/dQw4w9WgXcQ">Go To video</a>
-    </div>
+    <div id="root">Loading Video...</div>
     <style>
       body {
         margin: 0;
@@ -50,5 +43,10 @@
         font-family: Arial, Helvetica, sans-serif;
       }
     </style>
+    <script>
+      setTimeout(() => {
+        window.location.href = "https://www.youtube.com/embed/dQw4w9WgXcQ";
+      }, 1000);
+    </script>
   </body>
 </html>
